@@ -45,10 +45,7 @@ else:
         imageFile = open(imagePath, 'wb')
         
         for chunk in imageres.iter_content(10000000):
-            if os.path.exists(imagePath):
-                continue
-            else:
-                imageFile.write(chunk)
+            imageFile.write(chunk)
         imageFile.close()
         
     print('\nDownloaded\n')
