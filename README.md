@@ -1,4 +1,4 @@
-# automated-wallpaper-downloader
+# Automated Wallpaper Downloader
 
 This is a script to download all the highest resolution wallpapers available (maximum 20). The user can choose the theme for the wallpapers. The script will create a new folder automatically for different themes and store them seperately.
 
