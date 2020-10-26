@@ -4,7 +4,7 @@ This is a script to download all the highest resolution wallpapers available (ma
 
 ## Before Scripting
 
-Without this, A user has to perform the following steps in order to download and store the wallpapers of his desired theme:
+Without the automation, the user has to perform the following steps in order to download and store the wallpapers of his desired theme:
 
 1. Open a web browser
 
