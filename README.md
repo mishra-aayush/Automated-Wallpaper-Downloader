@@ -2,7 +2,6 @@
 
 This is a script to download all the highest resolution wallpapers available (maximum 20). The user can choose the theme for the wallpapers. The script will create a new folder automatically for different themes and store them seperately.
 
-----------------------------------------
 ## Before Scripting
 
 Without this, A user has to perform the following steps in order to download and store the wallpapers of his desired theme:
@@ -25,7 +24,6 @@ Without this, A user has to perform the following steps in order to download and
 
 ![Before Scripting](initial.gif)
 
------------------------------------
 ## After Scripting
 
 By running this program, we can automate the entire process. A couple of command line arguments will automatically download the highest resolution wallpapers and create a folder on the locally and store them.
