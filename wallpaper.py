@@ -25,6 +25,11 @@ if len(errors) != 0:
 else:
     os.makedirs(search, exist_ok = True)
     thumbs = soup.select('.thumb a')
+    
+    if len(thumbs) == 0:
+        print('\nSorry, no wallpapers found with your search term. Please try other searches.\n')
+        exit()
+    
     for i in range(len(thumbs)):
         nextUrl = 'https://www.hdwallpapers.in' + thumbs[i].get('href')
         newres = requests.get(nextUrl)
