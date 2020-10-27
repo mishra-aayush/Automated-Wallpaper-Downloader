@@ -2,7 +2,7 @@
 """
 Created on Sun Oct 25 09:56:07 2020
 
-Script to download all (maximun 20) the highest quality wallpapers of your choice
+Script to download all (maximun 20) of the highest quality wallpapers of your choice
 
 @author: AAYUSH MISHRA
 """
