@@ -47,6 +47,10 @@ else:
         imageres.raise_for_status
         
         imagePath = os.path.join(search, os.path.basename(imageUrl))
+        
+        if os.path.exists(imagePath):
+            continue
+        
         imageFile = open(imagePath, 'wb')
         
         for chunk in imageres.iter_content(10000000):
